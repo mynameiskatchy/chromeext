@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.tabs.create({ url: 'popup.html' })
     
-    chrome.tabs.update({
-        url: "http://www.facebook.com"
-    })
+    // chrome.tabs.update({
+    //     url: "http://www.facebook.com"
+    // })
 }) 
